@@ -1,0 +1,15 @@
+Iako biblioteka radi u sklopu elektrotehnièkog fakulteta, u nju se može uèlaniti bilo koja
+osoba koja želi imati pristup asortimanu knjiga biblioteke, s tom razlikom da studenti, studenti
+master studija i profesori elektrotehnièkog fakulteta ostvaruju pravo na popust od 10%, 12.5%
+i 15% respektivno prilikom plaæanja èlanarine koja se može plaæati mjeseèno ili godišnje.
+Ako neki èlan nije platio èlanarinu njegovo èlanstvo je potrebno suspendirati i zabraniti
+iznajmljivanje knjiga takvim èlanovima. 
+Dakle, pored standardnih informacija o èlanovima kao što su šifra, ime, prezime,
+matièni broj, datum roðenja, komentar koji ukazuje na eventualne zakašnjele knjige ili
+historiju nepravilnog postupanja sa iznajmljenim knjigama èlanovi koji ostvaruju popust
+moraju imati dodatne informacije koje æe predstavljati broj indeksa ili šifru zaposlenog
+shodno tome da li se radi o studentu, master studentu ili zaposlenom fakulteta respektivno.
+Ispravnost unosa informacije o èlanovima ovisi samo o ispravnosti matiènog broja (pod ovim 
+se podrazumijeva potpuna validacija matiènog broja, ne samo 13 cifara). Nakon uspješne
+prijave èlana, generiše se šifra koji mora biti jedinstvena za sve èlanove.
+Takoðer, pored profila èlana,aplikacija je integrirala i profil zaposlenika i administratora.

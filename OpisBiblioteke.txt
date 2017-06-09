@@ -1,0 +1,22 @@
+Biblioteka(.NET)
+
+Predmeti èitanja koji se mogu posuditi na èitanje iz bibiloteke mogu biti obiène knjige,
+stripovi i inžinjerski nauèni radovi shodno tome da biblioteka radi u sklopu elektrotehnièkog
+fakulteta. Generalne informacije vezane za predmet koji je moguæe posuditi jesu šifra knjige
+koja se koristi za interne potrebe i evidenciju biblioteke, naslov knjige, spisak autora knjige,
+ISBN knjige (generalno prihvaæena šifra za knjige oblika “ISBN 1-4028-9462“ za ISBN-10
+standard i “ISBN 978-1-4028-9462-6“ za ISBN-13 standard), žanr, naziv izdavaèa, godina
+izdanja. Za stripove dodatne informacije koje se moraju evidentirati je ime animatorske kuæe
+koja je vršila crtanje stripa i spisak umjetnika koji su to radili, broj izdanja, te da li to izdanje
+predstavlja specijalno ili obièno izdanje. Kada su u pitanju nauèni radovi potrebno je dodatno
+naznaèiti na kojoj konferenciji je objavljen rad i koja oblast je nauke obraðena kroz taj rad.
+Pošto još uvijek nije taèno odreðen standard radova koji æe biti primaran po kome æe biti
+pretraživani radovi koji se nalaze u biblioteci, dogovoren je spisak informacija koji mora biti
+dostupan, bez obzira na format).
+To su: generalneInformacije() što vraæa opæe informacije o
+radu, autoriRada() što vraæa formatirani spisak autora koji su pisali rad, oblastRada() što vraæa
+oblast nauke u kojoj je pisan rad i oblikReferenciranja() što vraæa naèin (string) na koji rad
+mora biti referenciran ako ga neko navodi kao izvor u svom radu. Generalno, ispravnost
+unesenog predmeta èitanja u biblioteku ovisi o: ispravnosti interne šifre knjige (koja mora biti
+jedinstvena za svaku knjigu i koja se generiše tek nakon unosa knjige), ispravnosti ISBN šifre
+(koja mora biti jedinstvena za svaku knjigu i mora poštovati standard ISBN-10 ili ISBN-13)
